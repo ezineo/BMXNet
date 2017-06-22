@@ -1,0 +1,3 @@
+﻿  xnor_cpu.cc
+C:\Users\Ezineo\BMXNet\smd_hpi\src\xnor_cpu.cc(145): error C3005: “collapse”: OpenMP“parallel for”指令上出现意外的标记
+C:\Users\Ezineo\BMXNet\smd_hpi\src\xnor_cpu.cc(190): error C3005: “collapse”: OpenMP“parallel for”指令上出现意外的标记

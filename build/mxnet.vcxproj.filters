@@ -1,0 +1,1415 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\c_api\c_api.cc">
+      <Filter>Source\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\c_api\c_api_error.cc">
+      <Filter>Source\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\c_api\c_api_executor.cc">
+      <Filter>Source\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\c_api\c_api_ndarray.cc">
+      <Filter>Source\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\c_api\c_api_symbolic.cc">
+      <Filter>Source\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\c_api\c_predict_api.cc">
+      <Filter>Source\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\common\mxrtc.cc">
+      <Filter>Source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\engine\engine.cc">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\engine\naive_engine.cc">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\engine\profiler.cc">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\engine\threaded_engine.cc">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\engine\threaded_engine_perdevice.cc">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\engine\threaded_engine_pooled.cc">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\executor\attach_op_execs_pass.cc">
+      <Filter>Source\executor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\executor\attach_op_resource_pass.cc">
+      <Filter>Source\executor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\executor\graph_executor.cc">
+      <Filter>Source\executor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\executor\inplace_addto_detect_pass.cc">
+      <Filter>Source\executor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\initialize.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\io\image_aug_default.cc">
+      <Filter>Source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\io\image_io.cc">
+      <Filter>Source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\io\io.cc">
+      <Filter>Source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\io\iter_csv.cc">
+      <Filter>Source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\io\iter_image_recordio.cc">
+      <Filter>Source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\io\iter_mnist.cc">
+      <Filter>Source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\kvstore\kvstore.cc">
+      <Filter>Source\kvstore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\ndarray\ndarray.cc">
+      <Filter>Source\ndarray</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\ndarray\ndarray_function.cc">
+      <Filter>Source\ndarray</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\nnvm\legacy_json_util.cc">
+      <Filter>Source\nnvm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\nnvm\legacy_op_util.cc">
+      <Filter>Source\nnvm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\activation.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\batch_norm.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\cast.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\concat.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\convolution.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\correlation.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\crop.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\cross_device_copy.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\cudnn_batch_norm.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\cudnn_convolution.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\custom.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\deconvolution.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\dropout.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\fully_connected.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\identity_attach_KL_sparse_reg.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\instance_norm.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\l2_normalization.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\leaky_relu.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\loss_binary_op.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\lrn.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\make_loss.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\mkl\mkl_cppwrapper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\mkl\mkl_memory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\native_op.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\ndarray_op.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\nnpack\nnpack_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\operator.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\operator_util.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\optimizer_op.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\pad.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\pooling.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\regression_output.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\rnn.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\roi_pooling.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\sequence_last.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\sequence_mask.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\sequence_reverse.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\slice_channel.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\softmax_activation.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\softmax_output.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\spatial_transformer.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\svm_output.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\swapaxis.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\broadcast_reduce_op_index.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\broadcast_reduce_op_value.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_broadcast_op_basic.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_broadcast_op_extended.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_broadcast_op_logic.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_op_basic.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_op_extended.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_op_logic.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_scalar_op_basic.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_scalar_op_extended.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_scalar_op_logic.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_sum.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_unary_op.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\indexing_op.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\init_op.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\matrix_op.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\ordering_op.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\sample_op.cc">
+      <Filter>Source\operator\tensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\operator\upsampling.cc">
+      <Filter>Source\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\resource.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\src\storage\storage.cc">
+      <Filter>Source\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\nnvm\src\c_api\c_api_error.cc">
+      <Filter>NNVM\Source\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\nnvm\src\c_api\c_api_graph.cc">
+      <Filter>NNVM\Source\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\nnvm\src\c_api\c_api_symbolic.cc">
+      <Filter>NNVM\Source\c_api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\nnvm\src\core\graph.cc">
+      <Filter>NNVM\Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\nnvm\src\core\node.cc">
+      <Filter>NNVM\Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\nnvm\src\core\op.cc">
+      <Filter>NNVM\Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\nnvm\src\core\pass.cc">
+      <Filter>NNVM\Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\nnvm\src\core\symbolic.cc">
+      <Filter>NNVM\Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\nnvm\src\pass\gradient.cc">
+      <Filter>NNVM\Source\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\nnvm\src\pass\infer_shape_type.cc">
+      <Filter>NNVM\Source\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\nnvm\src\pass\order_mutation.cc">
+      <Filter>NNVM\Source\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\nnvm\src\pass\place_device.cc">
+      <Filter>NNVM\Source\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\nnvm\src\pass\plan_memory.cc">
+      <Filter>NNVM\Source\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\nnvm\src\pass\saveload_json.cc">
+      <Filter>NNVM\Source\pass</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\smd_hpi\src\q_activation.cc">
+      <Filter>SMD_HPI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\smd_hpi\src\q_convolution.cc">
+      <Filter>SMD_HPI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\smd_hpi\src\q_fully_connected.cc">
+      <Filter>SMD_HPI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\smd_hpi\src\q_weights.cc">
+      <Filter>SMD_HPI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\smd_hpi\src\xnor_cpu.cc">
+      <Filter>SMD_HPI\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\c_api\c_api_common.h">
+      <Filter>Include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\common\cuda_utils.h">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\common\lazy_alloc_array.h">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\common\object_pool.h">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\common\thread_local.h">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\common\utils.h">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\engine\engine_impl.h">
+      <Filter>Include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\engine\profiler.h">
+      <Filter>Include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\engine\stream_manager.h">
+      <Filter>Include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\engine\thread_pool.h">
+      <Filter>Include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\engine\threaded_engine.h">
+      <Filter>Include\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\executor\exec_pass.h">
+      <Filter>Include\executor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\executor\graph_executor.h">
+      <Filter>Include\executor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\io\image_augmenter.h">
+      <Filter>Include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\io\image_recordio.h">
+      <Filter>Include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\io\inst_vector.h">
+      <Filter>Include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\io\iter_batchloader.h">
+      <Filter>Include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\io\iter_normalize.h">
+      <Filter>Include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\io\iter_prefetcher.h">
+      <Filter>Include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\kvstore\comm.h">
+      <Filter>Include\kvstore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\kvstore\kvstore_dist.h">
+      <Filter>Include\kvstore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\kvstore\kvstore_dist_server.h">
+      <Filter>Include\kvstore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\kvstore\kvstore_local.h">
+      <Filter>Include\kvstore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\ndarray\ndarray_function-inl.h">
+      <Filter>Include\ndarray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\ndarray\ndarray_function.h">
+      <Filter>Include\ndarray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\activation-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\batch_norm-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\cast-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\channel_op_common.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\concat-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\convolution-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\correlation-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\crop-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\cudnn_activation-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\cudnn_batch_norm-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\cudnn_convolution-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\cudnn_deconvolution-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\cudnn_lrn-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\cudnn_pooling-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\cudnn_rnn-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\cudnn_softmax_activation-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\cudnn_spatial_transformer-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\custom-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\deconvolution-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\dropout-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\elemwise_op_common.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\fully_connected-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\identity_attach_KL_sparse_reg-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\instance_norm-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\l2_normalization-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\leaky_relu-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\loss_binary_op-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\lrn-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\make_loss-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\mkl\mkl_batch_norm-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\mkl\mkl_concat-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\mkl\mkl_convolution-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\mkl\mkl_cppwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\mkl\mkl_elementwise-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\mkl\mkl_fully_connected-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\mkl\mkl_lrn-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\mkl\mkl_memory-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\mkl\mkl_memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\mkl\mkl_pooling-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\mkl\mkl_relu-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\mkl\mkl_util-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\mshadow_op.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\mxnet_op.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\native_op-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\ndarray_op-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\nnpack\nnpack_convolution-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\nnpack\nnpack_fully_connected-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\nnpack\nnpack_pooling-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\nnpack\nnpack_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\operator_common.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\optimizer_op-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\pad-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\pooling-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\regression_output-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\rnn-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\roi_pooling-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\sequence_last-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\sequence_mask-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\sequence_op_common.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\sequence_reverse-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\slice_channel-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\softmax_activation-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\softmax_output-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\spatial_transformer-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\special_functions-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\svm_output-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\swapaxis-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\broadcast_reduce_op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_broadcast_op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_scalar_op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_sum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_unary_op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\indexing_op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\init_op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\matrix_op-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\ordering_op-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\sample_op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\operator\upsampling-inl.h">
+      <Filter>Include\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\optimizer\sgd-inl.h">
+      <Filter>Include\optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\storage\cpu_device_storage.h">
+      <Filter>Include\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\storage\gpu_device_storage.h">
+      <Filter>Include\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\storage\naive_storage_manager.h">
+      <Filter>Include\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\storage\pinned_memory_storage.h">
+      <Filter>Include\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\storage\pooled_storage_manager.h">
+      <Filter>Include\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\src\storage\storage_manager.h">
+      <Filter>Include\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\src\c_api\c_api_common.h">
+      <Filter>NNVM\Include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\src\pass\graph_algorithm.h">
+      <Filter>NNVM\Include\pass</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\dmlc\any.h">
+      <Filter>NNVM\Include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\dmlc\array_view.h">
+      <Filter>NNVM\Include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\dmlc\base.h">
+      <Filter>NNVM\Include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\dmlc\json.h">
+      <Filter>NNVM\Include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\dmlc\logging.h">
+      <Filter>NNVM\Include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\dmlc\memory.h">
+      <Filter>NNVM\Include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\dmlc\optional.h">
+      <Filter>NNVM\Include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\dmlc\parameter.h">
+      <Filter>NNVM\Include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\dmlc\registry.h">
+      <Filter>NNVM\Include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\dmlc\thread_local.h">
+      <Filter>NNVM\Include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\dmlc\timer.h">
+      <Filter>NNVM\Include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\dmlc\type_traits.h">
+      <Filter>NNVM\Include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\nnvm\base.h">
+      <Filter>NNVM\Include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\nnvm\c_api.h">
+      <Filter>NNVM\Include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\nnvm\graph.h">
+      <Filter>NNVM\Include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\nnvm\graph_attr_types.h">
+      <Filter>NNVM\Include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\nnvm\node.h">
+      <Filter>NNVM\Include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\nnvm\op.h">
+      <Filter>NNVM\Include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\nnvm\op_attr_types.h">
+      <Filter>NNVM\Include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\nnvm\pass.h">
+      <Filter>NNVM\Include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\nnvm\pass_functions.h">
+      <Filter>NNVM\Include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\nnvm\symbolic.h">
+      <Filter>NNVM\Include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\nnvm\include\nnvm\tuple.h">
+      <Filter>NNVM\Include\nnvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\base.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\dot_engine-inl.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\expr_engine-inl.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\expr_scalar-inl.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\expression.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\broadcast.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\broadcast_with_axis.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\channel_pool.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\channel_unpool.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\choose.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\complex.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\concat.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\crop.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\fill.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\flip.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\implicit_gemm.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\mask.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\mirror.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\one_hot.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\pack_col2patch.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\pad.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\range.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\reduce_with_axis.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\reduceto1d.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\reshape.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\slice.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\slice_ex.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\spatial_pool.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\spatial_unpool.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\spatial_upsampling_nearest.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\swapaxis.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\take.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\take_grad.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\transpose.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\extension\unpack_patch2col.h">
+      <Filter>mshadow\Include\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\half.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\io.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\logging.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\packet-inl.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\packet\plain-inl.h">
+      <Filter>mshadow\Include\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\packet\sse-inl.h">
+      <Filter>mshadow\Include\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\random.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\stream_gpu-inl.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\tensor.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\tensor_blob.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\tensor_container.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\tensor_cpu-inl.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\mshadow\mshadow\tensor_gpu-inl.h">
+      <Filter>mshadow\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\smd_hpi\src\q_activation-inl.h">
+      <Filter>SMD_HPI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\smd_hpi\src\q_convolution-inl.h">
+      <Filter>SMD_HPI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\smd_hpi\src\q_fully_connected-inl.h">
+      <Filter>SMD_HPI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\smd_hpi\src\q_helper.h">
+      <Filter>SMD_HPI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\smd_hpi\src\q_weights-inl.h">
+      <Filter>SMD_HPI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ezineo\BMXNet\smd_hpi\src\xnor_cpu.h">
+      <Filter>SMD_HPI\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\ndarray\ndarray_function.cu">
+      <Filter>Cuda\ndarray</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\activation.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\batch_norm.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\cast.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\concat.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\convolution.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\correlation.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\crop.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\cudnn_batch_norm.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\deconvolution.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\dropout.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\fully_connected.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\identity_attach_KL_sparse_reg.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\instance_norm.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\l2_normalization.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\leaky_relu.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\loss_binary_op.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\lrn.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\make_loss.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\native_op.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\optimizer_op.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\pad.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\pooling.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\regression_output.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\rnn.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\roi_pooling.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\sequence_last.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\sequence_mask.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\sequence_reverse.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\slice_channel.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\softmax_activation.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\softmax_output.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\spatial_transformer.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\svm_output.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\swapaxis.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\broadcast_reduce_op_index.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\broadcast_reduce_op_value.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_broadcast_op_basic.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_broadcast_op_extended.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_broadcast_op_logic.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_op_basic.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_op_extended.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_op_logic.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_scalar_op_basic.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_scalar_op_extended.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_binary_scalar_op_logic.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_sum.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\elemwise_unary_op.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\indexing_op.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\init_op.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\matrix_op.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\ordering_op.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\tensor\sample_op.cu">
+      <Filter>Cuda\operator\tensor</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\src\operator\upsampling.cu">
+      <Filter>Cuda\operator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\smd_hpi\src\q_activation.cu">
+      <Filter>SMD_HPI\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\smd_hpi\src\q_convolution.cu">
+      <Filter>SMD_HPI\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\smd_hpi\src\q_fully_connected.cu">
+      <Filter>SMD_HPI\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\smd_hpi\src\q_weights.cu">
+      <Filter>SMD_HPI\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\ndarray\$(Configuration)\cuda_compile_1_generated_ndarray_function.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_activation.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_batch_norm.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_cast.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_concat.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_convolution.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_correlation.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_crop.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_cudnn_batch_norm.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_deconvolution.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_dropout.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_fully_connected.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_identity_attach_KL_sparse_reg.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_instance_norm.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_l2_normalization.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_leaky_relu.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_loss_binary_op.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_lrn.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_make_loss.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_native_op.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_optimizer_op.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_pad.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_pooling.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_regression_output.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_rnn.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_roi_pooling.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_sequence_last.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_sequence_mask.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_sequence_reverse.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_slice_channel.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_softmax_activation.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_softmax_output.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_spatial_transformer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_svm_output.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_swapaxis.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_broadcast_reduce_op_index.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_broadcast_reduce_op_value.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_elemwise_binary_broadcast_op_basic.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_elemwise_binary_broadcast_op_extended.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_elemwise_binary_broadcast_op_logic.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_elemwise_binary_op_basic.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_elemwise_binary_op_extended.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_elemwise_binary_op_logic.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_elemwise_binary_scalar_op_basic.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_elemwise_binary_scalar_op_extended.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_elemwise_binary_scalar_op_logic.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_elemwise_sum.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_elemwise_unary_op.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_indexing_op.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_init_op.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_matrix_op.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_ordering_op.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\tensor\$(Configuration)\cuda_compile_1_generated_sample_op.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\src\operator\$(Configuration)\cuda_compile_1_generated_upsampling.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\smd_hpi\src\$(Configuration)\cuda_compile_1_generated_q_activation.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\smd_hpi\src\$(Configuration)\cuda_compile_1_generated_q_convolution.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\smd_hpi\src\$(Configuration)\cuda_compile_1_generated_q_fully_connected.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\cuda_compile_1.dir\smd_hpi\src\$(Configuration)\cuda_compile_1_generated_q_weights.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NNVM\Source\c_api">
+      <UniqueIdentifier>{A85344D0-3C08-3ED0-9E9A-C5EDC484254F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NNVM\Source\core">
+      <UniqueIdentifier>{B369CB86-232F-31F1-BFE6-B548EF16B31F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NNVM\Source\pass">
+      <UniqueIdentifier>{F5752AE0-EE56-38F3-921A-1974E8AF0731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mshadow\Include\extension">
+      <UniqueIdentifier>{99EC3704-76FA-366B-B604-E31B1B41E54A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mshadow\Include\packet">
+      <UniqueIdentifier>{47AC89A3-57CF-3775-8A90-82B775AA0F19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cuda\operator\tensor">
+      <UniqueIdentifier>{2879C075-5ED5-3BEE-B18C-B0AA5757BD0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\operator\tensor">
+      <UniqueIdentifier>{206665CB-72C7-3428-8472-DFD07CE75B29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mshadow\Include">
+      <UniqueIdentifier>{DEADC99D-06FC-377F-8764-5376174A39C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NNVM\Include\c_api">
+      <UniqueIdentifier>{E7BE4AFB-97E4-3D95-AAC5-8FBBF71A4C12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NNVM\Include\pass">
+      <UniqueIdentifier>{9E67CBDA-4AA4-3BC5-9C3D-DF9D2E3ECF71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NNVM\Include\nnvm">
+      <UniqueIdentifier>{0DE8AAF7-AD74-33A9-AD80-E939FD62DF3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NNVM\Include\dmlc">
+      <UniqueIdentifier>{37CDEC64-034C-3273-A1C3-D73E4BBC5E95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NNVM\Include">
+      <UniqueIdentifier>{21307250-257E-3A4C-91C3-B7BF4CB5F08D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NNVM\Source">
+      <UniqueIdentifier>{CAA5A5F2-A121-3660-BBFD-D50F2DE08A70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{43D8FDAA-335E-32DE-898B-392CC659F1EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FE39DA25-2D75-3C0A-B4D3-884C33307D68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{5E58A0CC-3743-36E1-B317-ACAED3D3340D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{174213E9-BF26-3B67-A2FC-9C4C438F23B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cuda">
+      <UniqueIdentifier>{09572D3E-58D9-36C6-A19A-1AF64578B82A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{90710AF9-2A21-3019-9165-F1CC4A265C99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NNVM">
+      <UniqueIdentifier>{5336D30E-E56B-30DC-B21F-72B3474C828B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mshadow">
+      <UniqueIdentifier>{C722C872-FB87-3289-83F1-83C118790221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD_HPI">
+      <UniqueIdentifier>{29A801BB-4DC6-3806-A0E1-18D821421334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\common">
+      <UniqueIdentifier>{D582C679-37C0-345F-B3D5-A202C9967942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\c_api">
+      <UniqueIdentifier>{4C7DA3E5-656C-31D8-84B8-B9B9A4902128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\engine">
+      <UniqueIdentifier>{E20F6D36-3EF9-3CD0-B90C-68B5D046BA1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\io">
+      <UniqueIdentifier>{B4F25E04-2CCC-3249-9900-8DDAC9EDCE2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\kvstore">
+      <UniqueIdentifier>{F5F5D76A-1D6F-337A-B372-8E5387828B9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\ndarray">
+      <UniqueIdentifier>{A91B4586-4DB0-3723-ACC0-FD3AC6EA8B16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\operator">
+      <UniqueIdentifier>{40E8DFB3-C187-36B0-8045-D19FEE9ECC86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\optimizer">
+      <UniqueIdentifier>{F6D7E863-096C-3D88-A25B-A031384AD4D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\storage">
+      <UniqueIdentifier>{F76557BF-9007-326C-A87F-F6545880FA26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\executor">
+      <UniqueIdentifier>{202997BE-517E-3EB0-941B-D3A16FC11F7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\common">
+      <UniqueIdentifier>{BBC88F20-3F89-3B8D-A17E-F8573362537F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\c_api">
+      <UniqueIdentifier>{BCC4F5AB-0F5B-3E9A-A800-CA47902F771B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\engine">
+      <UniqueIdentifier>{86472858-F312-3836-8531-37E08ED2A695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\io">
+      <UniqueIdentifier>{E59E0A68-BB64-34D1-9EBA-082A91E5B60E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\kvstore">
+      <UniqueIdentifier>{8ACD7B3F-C8B0-3FED-AE4D-1C1E089B2B92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ndarray">
+      <UniqueIdentifier>{DB77507B-C92F-3B96-8199-EAC7482DF9D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\operator">
+      <UniqueIdentifier>{57C716D4-CE85-3843-9142-654051D90316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\storage">
+      <UniqueIdentifier>{4299067E-9A72-3747-BAFF-663D6513DA4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\executor">
+      <UniqueIdentifier>{9464B806-3B3A-31AA-95A7-FFA62FAD66E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\nnvm">
+      <UniqueIdentifier>{4498E2AD-5972-341A-A319-FCC017FE0CB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cuda\ndarray">
+      <UniqueIdentifier>{FEC94E97-2499-356F-BDDB-3ADE9D46DE3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cuda\operator">
+      <UniqueIdentifier>{6BE5E7C6-2669-310F-A715-78752217ABA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD_HPI\Include">
+      <UniqueIdentifier>{5C77CBB6-1372-3252-B21B-F06ECBAB40A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD_HPI\Source">
+      <UniqueIdentifier>{EC8D60B5-4E10-37A1-AAFB-391036C57448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD_HPI\Cuda">
+      <UniqueIdentifier>{E9284B38-6A2D-35BF-B8BA-A9B398521469}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

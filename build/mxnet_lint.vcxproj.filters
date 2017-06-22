@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\e8e28b93aa2fccc0cc46092e6776994c\mxnet_lint.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Ezineo\BMXNet\build\CMakeFiles\mxnet_lint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F9F4FF50-7F89-3910-AE05-C0DC9DF53058}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

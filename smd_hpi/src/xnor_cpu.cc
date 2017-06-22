@@ -16,6 +16,12 @@ namespace xnor_cpu {
 
 #define UNROLLN 6
 
+#if defined(_MSC_VER)
+#define __builtin_popcount __popcnt
+#define __builtin_popcountl __popcnt
+#define __builtin_popcountll __popcnt
+#endif
+
 void xnor_gemm_unrolled(int M, int N, int K,
                         BINARY_WORD *A, int lda,
                         BINARY_WORD *B, int ldb,
@@ -134,7 +140,8 @@ void xnor_gemm_convert_to_int(int M, int N, int K,
                       BINARY_WORD *B, int ldb,
                       float *C, int ldc){
   int m,k,n;
-  int popc[M*N];
+  //int popc[M*N];
+  std::vector<int> popc(M*N);
   #pragma omp parallel for collapse(2)    
   for (m = 0; m < M; ++m) {
     for (k = 0; k < K; k++) {
@@ -157,7 +164,8 @@ void xnor_gemm_convert_to_int_no_omp(int M, int N, int K,
                       BINARY_WORD *B, int ldb,
                       float *C, int ldc){
   int m,k,n;
-  int popc[M*N];
+  //int popc[M*N];
+  std::vector<int> popc(M*N);
 
   for (m = 0; m < M; ++m) {
     for (k = 0; k < K; k++) {

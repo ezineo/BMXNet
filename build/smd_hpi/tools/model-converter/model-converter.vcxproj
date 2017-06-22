@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1E98284C-AFF2-35AD-9D7E-3C9D4452317B}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>model-converter</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Ezineo\BMXNet\build\smd_hpi\tools\model-converter\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">model-converter.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">model-converter</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Ezineo\BMXNet\build\smd_hpi\tools\model-converter\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">model-converter.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">model-converter</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Ezineo\BMXNet\build\smd_hpi\tools\model-converter\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">model-converter.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">model-converter</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Ezineo\BMXNet\build\smd_hpi\tools\model-converter\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">model-converter.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">model-converter</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\Ezineo\BMXNet\include;C:\Users\Ezineo\BMXNet\mshadow;C:\Users\Ezineo\BMXNet\nnvm\include;C:\Users\Ezineo\BMXNet\dmlc-core\include;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PreprocessorDefinitions>_DEBUG;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MSHADOW_USE_CBLAS=0;MSHADOW_USE_MKL=1;MSHADOW_USE_CUDA=1;MSHADOW_FORCE_STREAM;USE_CUDNN;MXNET_USE_OPENCV=0;MSHADOW_USE_CUDNN=1;BINARY_WORD_32=0;BINARY_WORD_64=1;MXNET_USE_CUDA=1;MXNET_USE_NVRTC=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MSHADOW_USE_CBLAS=0;MSHADOW_USE_MKL=1;MSHADOW_USE_CUDA=1;MSHADOW_FORCE_STREAM;USE_CUDNN;MXNET_USE_OPENCV=0;MSHADOW_USE_CUDNN=1;BINARY_WORD_32=0;BINARY_WORD_64=1;MXNET_USE_CUDA=1;MXNET_USE_NVRTC=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\Ezineo\BMXNet\include;C:\Users\Ezineo\BMXNet\mshadow;C:\Users\Ezineo\BMXNet\nnvm\include;C:\Users\Ezineo\BMXNet\dmlc-core\include;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\Ezineo\BMXNet\include;C:\Users\Ezineo\BMXNet\mshadow;C:\Users\Ezineo\BMXNet\nnvm\include;C:\Users\Ezineo\BMXNet\dmlc-core\include;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\Debug\libmxnet.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\lib\intel64\mkl_rt.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\curand.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas_device.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\curand.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas_device.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudnn.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\nvrtc.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\nvrtc.lib\..\cuda.lib;..\..\..\dmlc-core\Debug\dmlccore.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Ezineo/BMXNet/build/smd_hpi/tools/model-converter/Debug/model-converter.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Ezineo/BMXNet/build/smd_hpi/tools/model-converter/Debug/model-converter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\Ezineo\BMXNet\include;C:\Users\Ezineo\BMXNet\mshadow;C:\Users\Ezineo\BMXNet\nnvm\include;C:\Users\Ezineo\BMXNet\dmlc-core\include;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MSHADOW_USE_CBLAS=0;MSHADOW_USE_MKL=1;MSHADOW_USE_CUDA=1;MSHADOW_FORCE_STREAM;USE_CUDNN;MXNET_USE_OPENCV=0;MSHADOW_USE_CUDNN=1;BINARY_WORD_32=0;BINARY_WORD_64=1;MXNET_USE_CUDA=1;MXNET_USE_NVRTC=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MSHADOW_USE_CBLAS=0;MSHADOW_USE_MKL=1;MSHADOW_USE_CUDA=1;MSHADOW_FORCE_STREAM;USE_CUDNN;MXNET_USE_OPENCV=0;MSHADOW_USE_CUDNN=1;BINARY_WORD_32=0;BINARY_WORD_64=1;MXNET_USE_CUDA=1;MXNET_USE_NVRTC=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\Ezineo\BMXNet\include;C:\Users\Ezineo\BMXNet\mshadow;C:\Users\Ezineo\BMXNet\nnvm\include;C:\Users\Ezineo\BMXNet\dmlc-core\include;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\Ezineo\BMXNet\include;C:\Users\Ezineo\BMXNet\mshadow;C:\Users\Ezineo\BMXNet\nnvm\include;C:\Users\Ezineo\BMXNet\dmlc-core\include;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\Release\libmxnet.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\lib\intel64\mkl_rt.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\curand.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas_device.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\curand.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas_device.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudnn.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\nvrtc.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\nvrtc.lib\..\cuda.lib;..\..\..\dmlc-core\Release\dmlccore.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Ezineo/BMXNet/build/smd_hpi/tools/model-converter/Release/model-converter.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Ezineo/BMXNet/build/smd_hpi/tools/model-converter/Release/model-converter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\Ezineo\BMXNet\include;C:\Users\Ezineo\BMXNet\mshadow;C:\Users\Ezineo\BMXNet\nnvm\include;C:\Users\Ezineo\BMXNet\dmlc-core\include;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MSHADOW_USE_CBLAS=0;MSHADOW_USE_MKL=1;MSHADOW_USE_CUDA=1;MSHADOW_FORCE_STREAM;USE_CUDNN;MXNET_USE_OPENCV=0;MSHADOW_USE_CUDNN=1;BINARY_WORD_32=0;BINARY_WORD_64=1;MXNET_USE_CUDA=1;MXNET_USE_NVRTC=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MSHADOW_USE_CBLAS=0;MSHADOW_USE_MKL=1;MSHADOW_USE_CUDA=1;MSHADOW_FORCE_STREAM;USE_CUDNN;MXNET_USE_OPENCV=0;MSHADOW_USE_CUDNN=1;BINARY_WORD_32=0;BINARY_WORD_64=1;MXNET_USE_CUDA=1;MXNET_USE_NVRTC=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\Ezineo\BMXNet\include;C:\Users\Ezineo\BMXNet\mshadow;C:\Users\Ezineo\BMXNet\nnvm\include;C:\Users\Ezineo\BMXNet\dmlc-core\include;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\Ezineo\BMXNet\include;C:\Users\Ezineo\BMXNet\mshadow;C:\Users\Ezineo\BMXNet\nnvm\include;C:\Users\Ezineo\BMXNet\dmlc-core\include;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\MinSizeRel\libmxnet.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\lib\intel64\mkl_rt.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\curand.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas_device.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\curand.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas_device.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudnn.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\nvrtc.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\nvrtc.lib\..\cuda.lib;..\..\..\dmlc-core\MinSizeRel\dmlccore.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Ezineo/BMXNet/build/smd_hpi/tools/model-converter/MinSizeRel/model-converter.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Ezineo/BMXNet/build/smd_hpi/tools/model-converter/MinSizeRel/model-converter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\Ezineo\BMXNet\include;C:\Users\Ezineo\BMXNet\mshadow;C:\Users\Ezineo\BMXNet\nnvm\include;C:\Users\Ezineo\BMXNet\dmlc-core\include;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MSHADOW_USE_CBLAS=0;MSHADOW_USE_MKL=1;MSHADOW_USE_CUDA=1;MSHADOW_FORCE_STREAM;USE_CUDNN;MXNET_USE_OPENCV=0;MSHADOW_USE_CUDNN=1;BINARY_WORD_32=0;BINARY_WORD_64=1;MXNET_USE_CUDA=1;MXNET_USE_NVRTC=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;WIN32_LEAN_AND_MEAN;DMLC_USE_CXX11;MSHADOW_IN_CXX11;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;MXNET_EXPORTS;NNVM_EXPORTS;DMLC_STRICT_CXX11;MSHADOW_USE_CBLAS=0;MSHADOW_USE_MKL=1;MSHADOW_USE_CUDA=1;MSHADOW_FORCE_STREAM;USE_CUDNN;MXNET_USE_OPENCV=0;MSHADOW_USE_CUDNN=1;BINARY_WORD_32=0;BINARY_WORD_64=1;MXNET_USE_CUDA=1;MXNET_USE_NVRTC=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\Ezineo\BMXNet\include;C:\Users\Ezineo\BMXNet\mshadow;C:\Users\Ezineo\BMXNet\nnvm\include;C:\Users\Ezineo\BMXNet\dmlc-core\include;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\Ezineo\BMXNet\include;C:\Users\Ezineo\BMXNet\mshadow;C:\Users\Ezineo\BMXNet\nnvm\include;C:\Users\Ezineo\BMXNet\dmlc-core\include;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\..\..\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\RelWithDebInfo\libmxnet.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\lib\intel64\mkl_rt.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\curand.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas_device.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\curand.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas_device.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudnn.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\nvrtc.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\nvrtc.lib\..\cuda.lib;..\..\..\dmlc-core\RelWithDebInfo\dmlccore.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Ezineo/BMXNet/build/smd_hpi/tools/model-converter/RelWithDebInfo/model-converter.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Ezineo/BMXNet/build/smd_hpi/tools/model-converter/RelWithDebInfo/model-converter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Ezineo/BMXNet/smd_hpi/tools/model-converter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Ezineo/BMXNet -BC:/Users/Ezineo/BMXNet/build --check-stamp-file C:\Users\Ezineo\BMXNet\build\smd_hpi\tools\model-converter\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Ezineo/BMXNet/smd_hpi/tools/model-converter/CMakeLists.txt;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\CMakeLists.txt;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Ezineo\BMXNet\build\smd_hpi\tools\model-converter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Ezineo/BMXNet/smd_hpi/tools/model-converter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Ezineo/BMXNet -BC:/Users/Ezineo/BMXNet/build --check-stamp-file C:\Users\Ezineo\BMXNet\build\smd_hpi\tools\model-converter\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Ezineo/BMXNet/smd_hpi/tools/model-converter/CMakeLists.txt;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\CMakeLists.txt;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Ezineo\BMXNet\build\smd_hpi\tools\model-converter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Ezineo/BMXNet/smd_hpi/tools/model-converter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Ezineo/BMXNet -BC:/Users/Ezineo/BMXNet/build --check-stamp-file C:\Users\Ezineo\BMXNet\build\smd_hpi\tools\model-converter\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Ezineo/BMXNet/smd_hpi/tools/model-converter/CMakeLists.txt;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\CMakeLists.txt;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Ezineo\BMXNet\build\smd_hpi\tools\model-converter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Ezineo/BMXNet/smd_hpi/tools/model-converter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Ezineo/BMXNet -BC:/Users/Ezineo/BMXNet/build --check-stamp-file C:\Users\Ezineo\BMXNet\build\smd_hpi\tools\model-converter\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Ezineo/BMXNet/smd_hpi/tools/model-converter/CMakeLists.txt;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\CMakeLists.txt;C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Ezineo\BMXNet\build\smd_hpi\tools\model-converter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Ezineo\BMXNet\smd_hpi\tools\model-converter\main.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Ezineo/BMXNet/build/ZERO_CHECK.vcxproj">
+      <Project>8551217E-843B-3A63-917D-683C88CE9B1D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ezineo/BMXNet/build/dmlc-core/dmlccore.vcxproj">
+      <Project>17264057-5236-3763-94A8-2FE744E29821</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Ezineo/BMXNet/build/mxnet.vcxproj">
+      <Project>CC27E560-4C0B-3B2E-8F10-4E6492811214</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

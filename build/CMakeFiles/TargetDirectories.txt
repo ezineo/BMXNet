@@ -1,0 +1,8 @@
+C:/Users/Ezineo/BMXNet/build/CMakeFiles/mxnet.dir
+C:/Users/Ezineo/BMXNet/build/CMakeFiles/mxnet_lint.dir
+C:/Users/Ezineo/BMXNet/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ezineo/BMXNet/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Ezineo/BMXNet/build/dmlc-core/CMakeFiles/dmlccore.dir
+C:/Users/Ezineo/BMXNet/build/dmlc-core/CMakeFiles/dmlccore_lint.dir
+C:/Users/Ezineo/BMXNet/build/dmlc-core/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ezineo/BMXNet/build/smd_hpi/tools/model-converter/CMakeFiles/model-converter.dir
